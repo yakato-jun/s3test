@@ -1,0 +1,17 @@
+{
+  "name": "minio-node-express-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app using Express to upload files to MinIO",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "@aws-sdk/client-s3": "^3.0.0",
+    "multer": "^1.4.2",
+    "dotenv": "^8.2.0"
+  }
+}
